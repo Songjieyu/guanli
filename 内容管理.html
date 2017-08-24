@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>内容管理</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/>
+		<style type="text/css">
+			.pp {
+				padding-top: 20px;
+			}
+			.container ul li a{
+				color: black;
+			}
+			.container ul li:hover>a,.container ul .l a{
+				color: white;
+				
+			}
+			.container ul li:hover,.container ul .l{
+				background: #337ab7;
+			}
+			.pp p{
+				line-height: 25px;
+				border-bottom: 1px solid #eeeeee;
+			}
+			footer{
+				text-align: center;
+			}
+			footer p{
+				line-height: 60px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav navbar-default" role="navigation">
+				<div class="container-fluid">
+					<div class="nav navbar-header">
+						<a href="" class="navbar-brand">后台管理</a>
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html"><i class="glyphicon glyphicon-home"></i> 后台首页</a>
+							</li>
+							<li>
+								<a href="用户列表.html"><i class="glyphicon glyphicon-user"></i> 用户管理</a>
+							</li>
+							<li class="active">
+								<a href="#"><i class="glyphicon glyphicon-list-alt"></i> 内容管理</a>
+							</li>
+							<li>
+								<a href="标签管理.html"><i class="glyphicon glyphicon-tags"></i> 标签管理</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="" data-toggle="dropdown"> admin<i class="caret"></i></a>
+								<ul class="dropdown-menu">
+									<li><a href=""><i class="glyphicon glyphicon-screenshot"></i> 前台首页</a></li>
+									<li><a href=""><i class="glyphicon glyphicon-user"></i> 个人主页</a></li>
+									<li><a href=""><i class="glyphicon glyphicon-cog"></i> 个人设置</a></li>
+									<li><a href=""><i class="glyphicon glyphicon-credit-card"></i> 账户中心</a></li>
+									<li><a href=""><i class="glyphicon glyphicon-heart"></i> 我的收藏</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><i class="glyphicon glyphicon-off"></i> 退出</a>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+			</nav>
+			<div class="col-sm-2 pp">
+				<ul class="list-group">
+					<li class="list-group-item active">内容管理</li>
+					<li class="list-group-item">添加内容</li>
+				</ul>
+			</div>
+			<div class="col-sm-10 pp">
+				<p>内容管理</p>
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#nrss" data-toggle="tab">内容搜索</a></li>
+					<li><a href="#nrtj" data-toggle="tab">添加内容</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane clearfix active" id="nrss">
+						<table class="table">
+							<thead>
+								<tr>
+									<th>文章标题</th>
+									<th>作者</th>
+									<th>发布时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>饭mooc职业教育，效果和就业为王</th>
+									<td>朱兵</td>
+									<td>2015/08/18</td>
+									<td class="dropdown">
+										<button type="button" class="btn btn-default" data-toggle="dropdown">操作<i class="caret"></i></button>
+										<ul class="dropdown-menu">
+											<li><a href="">编辑</a></li>
+											<li><a href="">删除</a></li>
+											<li><a href="">全局置顶</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>饭mooc职业教育，效果和就业为王</th>
+									<td>朱兵</td>
+									<td>2015/08/18</td>
+									<td class="dropdown">
+										<button type="button" class="btn btn-default" data-toggle="dropdown">操作<i class="caret"></i></button>
+										<ul class="dropdown-menu">
+											<li><a href="">编辑</a></li>
+											<li><a href="">删除</a></li>
+											<li><a href="">全局置顶</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>饭mooc职业教育，效果和就业为王</th>
+									<td>朱兵</td>
+									<td>2015/08/18</td>
+									<td class="dropdown">
+										<button type="button" class="btn btn-default" data-toggle="dropdown">操作<i class="caret"></i></button>
+										<ul class="dropdown-menu">
+											<li><a href="">编辑</a></li>
+											<li><a href="">删除</a></li>
+											<li><a href="">全局置顶</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>饭mooc职业教育，效果和就业为王</th>
+									<td>朱兵</td>
+									<td>2015/08/18</td>
+									<td class="dropdown">
+										<button type="button" class="btn btn-default" data-toggle="dropdown">操作<i class="caret"></i></button>
+										<ul class="dropdown-menu">
+											<li><a href="">编辑</a></li>
+											<li><a href="">删除</a></li>
+											<li><a href="">全局置顶</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>饭mooc职业教育，效果和就业为王</th>
+									<td>朱兵</td>
+									<td>2015/08/18</td>
+									<td class="dropdown">
+										<button type="button" class="btn btn-default" data-toggle="dropdown">操作<i class="caret"></i></button>
+										<ul class="dropdown-menu">
+											<li><a href="">编辑</a></li>
+											<li><a href="">删除</a></li>
+											<li><a href="">全局置顶</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>饭mooc职业教育，效果和就业为王</th>
+									<td>朱兵</td>
+									<td>2015/08/18</td>
+									<td class="dropdown">
+										<button type="button" class="btn btn-default" data-toggle="dropdown">操作<i class="caret"></i></button>
+										<ul class="dropdown-menu">
+											<li><a href="">编辑</a></li>
+											<li><a href="">删除</a></li>
+											<li><a href="">全局置顶</a></li>
+										</ul>
+									</td>
+								</tr>
+								<tr>
+									<th>饭mooc职业教育，效果和就业为王</th>
+									<td>朱兵</td>
+									<td>2015/08/18</td>
+									<td class="dropdown">
+										<button type="button" class="btn btn-default" data-toggle="dropdown">操作<i class="caret"></i></button>
+										<ul class="dropdown-menu">
+											<li><a href="">编辑</a></li>
+											<li><a href="">删除</a></li>
+											<li><a href="">全局置顶</a></li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<ul class='pagination pull-right' id='page'>
+							<li><a href="" style="color: #337ab7;">&laquo;</a></li>
+							<li class="active"><a href="" style="color: white;" >1</a></li>
+							<li><a href="" style="color: #337ab7;">2</a></li>
+							<li><a href="" style="color: #337ab7;">3</a></li>
+							<li><a href="" style="color: #337ab7;">4</a></li>
+							<li><a href="" style="color: #337ab7;">5</a></li>
+							<li><a href="" style="color: #337ab7;">6</a></li>
+							<li><a href="" style="color: #337ab7;">&raquo;</a></li>
+						</ul>
+					</div>
+					<div class="tab-pane" id="nrtj">
+						<form action="" role="form" class="pp" class="clearfix">
+							<div class="form-group">
+								<label for="a">标题</label>
+								<input type="text" class="form-control" id="a"/>
+							</div>
+							<div class="form-group">
+								<label for="b">文章内容</label>
+								<textarea type="text" class="form-control" id="b" rows="12"></textarea>
+							</div>
+							<div class="form-group pull-left">
+								<div class="checkbox-inline">
+									<label for="">
+										<input type="checkbox"/>全局置顶
+									</label>
+								</div>
+							</div>
+							<button type="submit" class="btn btn-default pull-right">提交文章</button>
+						</form>
+					</div>
+				</div>
+			
+			</div>
+			
+			
+		</div>
+		<footer>
+						<p>Copyright@2012-2015 ICP备xxxxxx号</p>
+		</footer>
+		<script type="text/javascript" src="jquery-2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
